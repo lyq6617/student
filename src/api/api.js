@@ -6,3 +6,11 @@ import service from '../service.js'
 export const post = (url,params) =>{
     return service.post(url,params)
 }
+
+export const get = (url,params) =>{
+    return service.get(url,params)
+}
+
+export const del = (url,params) =>{
+    return service.delete(url,params)
+}
