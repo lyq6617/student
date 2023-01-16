@@ -113,7 +113,7 @@ export default {
       console.log(`当前页: ${val}`);
     },
     getData(params) {
-      students(params).then((res) => {
+        students(params).then((res) => {
         console.log(res);
         if (res.data.status === 200) {
           this.tableData = res.data.data;
